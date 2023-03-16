@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smile Emoji</title>
+        <style>
+            body { height: 90vh;}
+
+            body,main {
+                display: grid;
+                place-items: center;
+            }
+
+            main {
+                width: 500px;
+                height: 500px;
+                background: yellow;
+                border-radius: 50%;
+                position: relative;
+                border: 3px solid white;
+            }
+
+            div {
+                width: 50px;
+                height: 80px;
+                background: #996328;
+                border-radius: 50%;
+                position: absolute;
+            }
+
+            #right-eye {
+                top: 30%;
+                margin-right: 150px;
+            }
+
+            #left-eye {
+                top: 30%;
+                margin-left: 150px;
+            }
+
+            #mouth {
+                bottom: 20%;
+                width: 200px;
+                height: 50px;
+                border-radius: 10px 10px 100px 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="right-eye"></div>
+            <div id="left-eye"></div>
+            <div id="mouth"></div>
+        </main>
+    </body>
+</html>
